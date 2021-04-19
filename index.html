@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lico</title>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+            <!----js here---->
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/defualt.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+
+<div class="text-align">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span> 
+    <span class="dot" onclick="currentSlide(7)"></span> 
+  </div>
+
+<div class="slideshow-container">
+
+
+ <!--================Header Menu Area start=================-->               
+ <div class="menu">
+    <div class="sidebar d-none d-lg-block d-xl-block">
+        <div class="img-top">
+            <img class="img-fluid" src="assets/images/logo.png" alt="">
+        </div>
+        <div class="img-middle">
+            <img class="img-fluid" src="assets/images/menu.png" alt=""class="img-fluid">
+        </div>
+        <div class="img-bottom">
+            <ul>
+                <li class="active"><a class="active" href="#home"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="#brifcase"><i class="fas fa-briefcase"></i><span>Portfolio</span></a></li>
+                <li><a href="#blog"><i class="fab fa-blogger"></i> <span>Blog</span> </a></li>
+                <li><a href="#phone"><i class="fas fa-phone"></i> <span>Contact</span> </a></li>
+            </ul>
+        </div>
+        <div class="social-icon">
+            <p>Social</p>
+                <ul class="nav-bottom">
+                    <li><a href="#""><i class="fab fa-facebook-f"></i></li></a>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></li></a>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></li></a>
+                    <li><a href="#"><i class="fab fa-twitter"></i></li></a>
+                </ul>
+            <div class="search-bar">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar1 d-lg-none d-xl-none">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div> 
+</div>
+<!--================Header Menu Area end=================-->
+<!--================bottom-menu Area start =================-->
+<div class="bottom-menu">
+<div class="row no-gutters">
+<div class="col-xl-6">
+    <div class="part1">
+        <ul class="nav">
+            <li class="nav-item">
+            <a class="nav-link" href="#">home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="col-xl-4">
+    <div class="part2">
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-phone-alt"></i>Phone: +5 (87) 86953-12</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#"><i class="fas fa-envelope-open"></i>Mroshidmos@gmail.com</a>
+        </li>
+    </div>
+</div>
+<div class="col-xl-2">
+    <div class="part3"><a href="#">Scroll</a></div>
+</div>
+</div>
+</div>
+<!--================bottom-menu Area End==============--> 
+
+
+
+<div class="mySlides">
+    <!--================Header hero Area start=================--> 
+<div id="home" class="hero">
+    <div class="row">
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 order-1 order-lg-0">
+            <div class="hero-left">
+                <p><span>05 May, 2020</span></p>
+                <h6>Welcome to I’m Muomila Rangar Portfolio</h6>
+                <h1> <span>Design</span>  makes anything When you call myself</h1>
+                <p>I'm a professional intelligence designer since 2008. I love design, development very much.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </div>  
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 order-0 order-lg-1">
+            <div class="hero-right">
+                <img src="assets/images/01_-home-page.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<!--================Header hero Area end=================-->  
+</div>
+
+
+<div class="mySlides">
+<!--================About Area start=================-->
+<div id="brifcase" class="about">
+    <div class="about-wrap">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <div class="about-left">
+                    <img src="assets/images/about-profile.png" alt="" class="img-fluid">
+                </div>
+                <img class="img-logo" src="assets/images/about-logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="about-right">
+                    <h6>I’m Muomila Rangar</h6>
+                    <p class="ph-bold">For over 12 years I have been successfully providing business information to poeple.</p>
+                    <p>I’m an IT University student, I like to create simple & standard UI/UX design and development. It’s my profession to create client's projects that make a smile after done.</p>
+                    <div class="information  no-gutters">
+                        <div class="col-xl-6">
+                            <i class="fas fa-user"><span>Name: Muomila Rangar</span></i>
+                            <i class="fas fa-map-marker-alt"><span>Location: CS-124, NY, NewYork, USA</span></i>
+                            <i class="fas fa-envelope-open-text"><span>Mail: Muomilarangar@gmail.com</span></i>
+                        </div>
+                        <div class="col-xl-6">
+                            <i class="fas fa-calendar-alt"><span> Date of Birth: 1996 & 29 Years</span></i>
+                            <i class="fas fa-user-graduate"><span> Degree: Master of Computer</span></i>
+                            <i class="fas fa-phone-alt"><span> Phone: +997 4638 255</span></i>
+                        </div>
+                    </div>
+                    <div class="about-sicon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-twitter"></i>
+                        <button class="play-btn"><span>Play</span><i class="far fa-play-circle"></i></button>
+                    </div>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+<!--================About Menu Area End==============--> 
+</div>
+
+<!--================service Area start=================-->
+<div id="blog" class="mySlides">
+<div class="service">
+    <div class="row">
+        <div class="service-wrapper">
+            <div class="col-xl-9">
+                <div class="service-content">
+                    <h1>What I Offer You</h1>
+                    <p>Many client are searching hardworker for their personal or business project to done. I will assured you that i’m well know these plaform. Already sertified Computer</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                        <a href="#"><i class="fas fa-laptop-code"></i></a>
+                        <h4>Web Development</h4>
+                        <p>Packages andpage editors now use default model text.</p>
+                    </div>
+                </div> 
+                <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                        <a href="#"><i class="fas fa-gem"></i></a>
+                        <h4>UI/UX Design</h4>
+                        <p>Packages andpage editors now use default model text.</p>
+                    </div>
+                </div> 
+                <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                        <a href="#"><i class="fas fa-campground"></i></a>
+                        <h4>Graphic Design</h4>
+                        <p>Packages andpage editors now use default model text.</p>
+                    </div>
+                </div> 
+                <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                        <a href="#"><i class="fas fa-camera-retro"></i></a>
+                        <h4>Photography</h4>
+                        <p>Packages andpage editors now use default model text.</p>
+                    </div>
+                </div> 
+                <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                        <a href="#"><i class="fas fa-pen-alt"></i></a>
+                        <h4>Branding Design</h4>
+                        <p>Packages andpage editors now use default model text.</p>
+                    </div>
+                </div> 
+                <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                        <a href="#"><i class="far fa-question-circle"></i></a>
+                        <h4>Online Support</h4>
+                        <p>Packages andpage editors now use default model text.</p>
+                    </div>
+                </div> 
+            </div>
+        </div> 
+    </div>
+ 
+</div>
+<!--================service Area End==============--> 
+    </div>
+
+
+    <div id="phone" class="mySlides slide-up">
+        <div class="profile">
+            <div class="profile-wrap">
+                <div class="row ml-3">
+                    <h2>Education & Experiences</h2>
+                </div>
+                <div class="row ml-3">
+                    <div class="tab">
+                        <button class="btnTab" onclick="openTab(event, 'education')">Education </button>
+                        <button class="btnTab" onclick="openTab(event, 'Experiences')" id="defaultOpen">Experiences </button>
+                    </div>
+                </div>
+                <div id="education" class="tab_content">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6 col-xm-12">
+                            <div class="profile-item">
+                                <a href="#"><i class="fas fa-laptop-code"></i></a>
+                                <h4>Computer Seience</h4>
+                                <h6>Harvard University - 2010-2017</h6>
+                                <p>Packages andpage editors now use default model text.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6 col-xm-12">
+                            <div class="profile-item">
+                                <a href="#"><i class="fas fa-university"></i></a>
+                                <h4>University Graduation</h4>
+                                <h6>Harvard University - 2010-2017</h6>
+                                <p>Harvard University is my sit amet, con sectetur adipisicing elit.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fas fa-graduation-cap"></i></a>
+                                <h4>Computer Seience</h4>
+                                <h6>Harvard University - 2010-2017</h6>
+                                <p>Harvard University is my sit amet, con sectetur adipisicing elit.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fas fa-edit"></i></a>
+                                <h4>Envato Market</h4>
+                                <h6>Envato University - 2014-2020</h6>
+                                <p>Harvard University is my sit amet, con sectetur adipisicing elit.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                                <h4 class="h-4">Master of Programming</h4>
+                                <h6 class="font">Califonia IT University - 2012-2016</h6>
+                                <p>Harvard University is my sit amet, con sectetur adipisicing elit.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                                <h4>Jobs & Workplace</h4>
+                                <h6 class="font">CD Road California USA - 2010-2017</h6>
+                                <p>Harvard University is my sit amet, con sectetur adipisicing elit.</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div id="Experiences" class="tab_content">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fab fa-html5"></i></a>
+                                <h4>html5</h4>
+                                <div id="bar1" class="barfiller">
+                                    <div class="tipWrap"><span class="tip"></span></div>
+                                    <span class="fill" data-percentage="70"></span>
+                                </div>
+                                <p>Packages andpage editors now use default model text.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fab fa-css3-alt"></i></a>
+                                <h4>css3</h4>
+                                <div id="bar5" class="barfiller">
+                                    <div class="tipWrap"><span class="tip"></span></div>
+                                    <span class="fill" data-percentage="90"></span>
+                                </div>
+                                <p>Packages andpage editors now use default model text.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fab fa-php"></i></a>
+                                <h4>php</h4>
+                                <div id="bar3" class="barfiller">
+                                    <div class="tipWrap"><span class="tip"></span></div>
+                                    <span class="fill" data-percentage="50"></span>
+                                </div>
+                                <p>Packages andpage editors now use default model text.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fab fa-sass"></i></a>
+                                <h4>sass</h4>
+                                <div id="bar2" class="barfiller">
+                                    <div class="tipWrap"><span class="tip"></span></div>
+                                    <span class="fill" data-percentage="70"></span>
+                                </div>
+                                <p>Packages andpage editors now use default model text.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fab fa-sass"></i></a>
+                                <h4>sass</h4>
+                                <div id="bar2" class="barfiller">
+                                    <div class="tipWrap"><span class="tip"></span></div>
+                                    <span class="fill" data-percentage="70"></span>
+                                </div>
+                                <p>Packages andpage editors now use default model text.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-md-6">
+                            <div class="profile-item">
+                                <a href="#"><i class="fab fa-node-js"></i></a>
+                                <h4>node-js</h4>
+                                <div id="bar6" class="barfiller">
+                                    <div class="tipWrap"><span class="tip"></span></div>
+                                    <span class="fill" data-percentage="85"></span>
+                                </div>
+                                <p>Packages andpage editors now use default model text.</p>	
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+    <div class="mySlides">
+        <div class="portfolio-part">
+            <div class="portfolio-wrap">
+                <div class="row ml-3">
+                    <h3>My Portfolio</h3>
+                </div>
+                <div class="row ml-3">
+                    <div class="filter">
+                        <a class="btn" href="#all" data-filter="all">All</a>
+                        <a class="btn" href="#wp" data-filter=".wp">Mobile application</a>
+                        <a class="btn" href="#webdesign" data-filter=".webdesign">Web design</a>
+                        <a class="btn" href="#psd" data-filter=".psd">Branding</a>
+                    </div>
+                </div>
+                <div class="row portfolio mt-5" data-aos="fade-up"
+                data-aos-duration="3000">
+                <div class="mix col-md-4 col-sm-6 psd padd">
+                    <div class="item">
+                        <img src="assets/images/img-1.png" alt="" class="img-fluid">
+                    </div>
+                    </div>
+                    <div class="mix col-md-4 col-sm-6 wp psd padd">
+                    <div class="item">
+                        <img src="assets/images/img-2.png" alt="" class="img-fluid">
+                    </div>
+                    </div>
+                    <div class="mix col-md-4 col-sm-6 webdesign psd padd">
+                    <div class="item">
+                        <img src="assets/images/img-3.png" alt="" class="img-fluid">
+                    </div>
+                    </div>
+                    <div class="mix col-md-4 col-sm-6 webdesign wp padd">
+                    <div class="item">
+                        <img src="assets/images/img-4.png" alt="" class="img-fluid">
+                    </div>
+                    </div>
+                    <div class="mix col-md-4 col-sm-6 wp psd padd">
+                    <div class="item">
+                        <img src="assets/images/img-5.png" alt="" class="img-fluid">
+                    </div>
+                    </div>
+                    <div class="mix col-md-4 col-sm-6 webdesign psd padd">
+                    <div class="item">
+                        <img src="assets/images/img-6.png" alt="" class="img-fluid">
+                    </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+
+    <div class="mySlides">
+<!--================Blog Area start==============--> 
+<div class="Blog">
+    <div class="Blog-wrap">
+        <div class="col-xl-9">
+            <div class="Blog-content">
+                <h1>News & Updates</h1>
+                <p>Many client are searching hardworker for their personal or business project to done. I will assured you that i’m well know these plaform. Already sertified Computer</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="blog-wrap"> 
+                    <div class="blog-img">
+                        <img src="assets/images/blog-img-1.png" alt="">
+                    </div>
+                    <div class="text1">
+                        <h4>Category: Devlopment</h4>
+                        <h5>Top 10 Product Mockups 2020</h5>
+                        <p>Mliquyam erat, sed diam voluptua. Lok vero eos et accusam et justo duolores et ea rebum. Stet clita</p>
+                        <a href="#">Details More <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="blog-wrap"> 
+                    <div class="blog-img">
+                        <img src="assets/images/blog-img-2.png" alt="">
+                    </div>
+                    <div class="text1">
+                        <h4>Category: Devlopment</h4>
+                        <h5>Top 10 Product Mockups 2020</h5>
+                        <p>Mliquyam erat, sed diam voluptua. Lok vero eos et accusam et justo duolores et ea rebum. Stet clita</p>
+                        <a href="#">Details More <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-30">
+                <div class="blog-wrap">
+                    <div class="blog-img">
+                        <img src="assets/images/blog-img-3.png" alt="">
+                    </div>
+                    <div class="text1">
+                        <h4>Category: Devlopment</h4>
+                        <h5>Top 10 Product Mockups 2020</h5>
+                        <p>Mliquyam erat, sed diam voluptua. Lok vero eos et accusam et justo duolores et ea rebum. Stet clita</p>
+                        <a href="#">Details More <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>   
+</div>
+<!--================Blog Area End==============--> 
+    </div>
+    
+    <div class="mySlides">
+
+        <div class="Contact">
+            <div class="Contact-wrap">
+                <div class="row">
+                    <div class="col-xl-9">
+                        <div class="contact-content">
+                            <h1>Contact Me</h1>
+                            <p>Many client are searching hardworker for their personal or business project to done. I will assured you that i’m well know these plaform. Already sertified Computer Sceince.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-box">
+                        <a href="#"><i class="fas fa-phone-alt"></i></a>
+                        <h2>Phone: </h2>
+                        <h5>09988663322, 7788773377</h5>
+                        <p>Call me Stet clita kasd gub luiergre takimata sanctus est orem ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-box">
+                        <a href="#"><i class="fas fa-envelope-open"></i></a>
+                        <h2>Mail:</h2>
+                        <h5>Muomilarangar@gmail.com</h5>
+                        <p>Call me Stet clita kasd gub luiergre takimata sanctus est orem ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-box">
+                        <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                        <h2>Location:</h2>
+                        <h5> CS-124, NY, NewYork, USA</h5>
+                        <p>Call me Stet clita kasd gub luiergre takimata sanctus est orem ipsum.</p>
+                        </div>
+                    </div>
+                    </div>
+                <div class="row mt-5">
+                    <div class="col-xl-4 col-md-12">
+                        <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116232.8278032215!2d90.34225695984519!3d24.441212388786475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37566ec391b33787%3A0xbc9545354ca40da1!2sPurura%2C%20Bhaluka!5e0!3m2!1sen!2sbd!4v1617994849571!5m2!1sen!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                        <div class="col-xl-4 col-md-6">
+                        <div class="contact-input">
+                            <input type="text" placeholder="Your Full-Name"> <br>
+                            <input type="text" placeholder="Mail Address"> <br>
+                            <input type="text" placeholder="Website/Phone(Optional)">
+                        </div>
+                        </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="contact-message">
+                        <textarea name="" id="" cols="32" rows="3" placeholder="Type message"></textarea>
+                        <button class="btn-danger">Submit Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+  
+    <!----js here---->
+
+    <script src="js/popper.min.js"></script> 
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendor/anime.min.js"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/362a8862fb.js"></script>
+
+
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+
+
+
+
+</body>
+</html>

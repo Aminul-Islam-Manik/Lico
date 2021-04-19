@@ -1,0 +1,262 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-left,.about-left,.service-wrapper,.profile-wrap,.portfolio-wrap,.Blog-wrap,.Contact-wrap{
+        margin-top: 25px;
+        margin-left: 150px;
+    }
+    .hero-left h1{
+        font-size: 32px;
+        letter-spacing: 0px;
+    }
+    .hero-right{
+        top: 55%;
+        left: 35%;
+        padding-right: 0px;
+    }
+    .about-left::before {
+        top: 64px;
+        left: 37%;
+    }
+    .about-left::after {
+        height: 67%;
+        bottom: 52px;
+        right: 12%;
+    }
+    .img-logo {
+        top: 106px;
+        right: 12px;
+    }
+    .about-right .information {
+        padding: 11px 0px;
+    }
+    .bottom-menu {
+        left: 60px;
+    }
+    .next {
+        right: 41px !important;
+    }
+    .prev {
+        right: 45px;
+    }
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .menu {
+        width: 100%;
+        height: auto;
+        z-index: 38;
+    }
+    .hero {
+        width: 100%;
+    }
+    .hero-left,.about-left,.service-wrapper,.profile-wrap,.portfolio-wrap,.Blog-wrap,.Contact-wrap{
+        margin-top: 25px;
+        margin-left: 72px;
+    }
+    .hero-right{
+        left: 50%;
+    }
+    .sidebar1 img{
+        background: #DA062C;
+        padding: 9px 7px;
+    }
+    .bottom-menu {
+        width: 99%;
+        left: 0px;
+    }
+    
+    .next {
+        bottom: 30%;
+    }
+
+    .next {
+        right: 38px !important;
+    }
+    .prev {
+        right: 38px;
+    }
+    .about-left::before {
+        content: "";
+        width: 23%;
+        height: 23%;
+        position: absolute;
+        background: #fff;
+        top: 66px;
+        left: 18%;
+        z-index: 1;
+    }
+    .about-left::after {
+        bottom: 30px;
+        right: 40%;
+        height: 75%;
+    }
+    .about-left img {
+        width: 56%;
+    }
+    .img-logo {
+        position: absolute;
+        top: 116px;
+        right: 12px;
+        z-index: 2;
+        left: 53%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+
+    .menu {
+        width: 100%;
+        height: auto;
+        z-index: 38;
+    }
+    .sidebar1 img{
+        background: #DA062C;
+        padding: 9px 7px;
+    }
+    .hero {
+        width: 100%;
+    }
+    .hero-left h1{
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .hero-left,.about-left{
+        margin-top: 25px;
+        margin-left: 55px;
+    }
+    .hero-right{
+        left: 50%;
+    }
+    .bottom-menu {
+        width: 99%;
+        left: 0px;
+    }
+    .next {
+        bottom: 30%;
+    }
+    .next {
+        right: 30px !important;
+    }
+    .prev {
+        right: 30px;
+    }
+    .about-left::before {
+        top: 54px;
+        left: 16%;
+    }
+
+
+
+
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+
+.sidebar1 img{
+    background: #DA062C;
+    padding: 9px 7px;
+}
+.bottom-menu {
+    width: 99%;
+    left: 0px;
+}
+.menu {
+    width: 100%;
+    height: auto;
+    z-index: 38;
+}
+    .hero {
+        width: 100%;
+    }
+    .hero-left h1{
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .hero-left,.about-left,.service-wrapper,.profile-wrap,.portfolio-wrap,.Blog-wrap,.Contact-wrap{
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    .hero-right{
+        left: 54%;
+        margin-right: 0px;
+    }
+    .next {
+        right: 30px !important;
+    }
+    .prev {
+        right: 30px;
+    }
+    .about-left::before {
+        top: 54px;
+        left: 16%;
+    }
+
+
+ 
+}
+/* Large Mobile :480px. */
+@media only screen and (max-width: 479px) {
+    .container {width:450px}
+    .menu {
+        width: 100%;
+        height: auto;
+        z-index: 38;
+    }
+    .hero {
+        width: 100%;
+    }
+    .hero-left,.about-left,.service-wrapper,.profile-wrap,.portfolio-wrap,.Blog-wrap,.Contact-wrap{
+        margin-top: 25px;
+        margin-left: 5px;
+        padding: 15px 10px;
+    }
+
+    .sidebar1 img{
+        background: #DA062C;
+        padding: 9px 7px;
+    }
+    .next {
+        right: 20px !important;
+    }
+    .prev {
+        right: 24px;
+    }
+
+
+    .about-left::before {
+        top: 54px;
+        left: 16%;
+    }
+
+
+
+
+    }
